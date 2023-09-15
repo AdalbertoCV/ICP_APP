@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>hello_world</title>
+    <title>Ecuaciones Cuadráticas</title>
     <base href="/" />
     <link rel="icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body>
     <main>
-      <img src="logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
+      <h1>Ecuaciones Cuadráticas</h1>
       <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
+        <label for="a">Coeficiente A: &nbsp;</label>
+        <input id="a" type="number" step="any" required />
+        <br />
+        <label for="b">Coeficiente B: &nbsp;</label>
+        <input id="b" type="number" step="any" required />
+        <br />
+        <label for="c">Coeficiente C: &nbsp;</label>
+        <input id="c" type="number" step="any" required />
+        <br />
+        <button type="submit">Calcular</button>
       </form>
-      <section id="greeting"></section>
+      <section id="solutions"></section>
     </main>
+    <script type="module" src="app.js"></script>
   </body>
 </html>
