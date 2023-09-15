@@ -6,7 +6,7 @@ actor {
     }
     else{
       // Calcular la discriminante
-      let discriminant = b * b - 4 * a * c;
+      let discriminant = (b * b) - ( 4 * a * c);
       
 
       if (discriminant < 0) {
