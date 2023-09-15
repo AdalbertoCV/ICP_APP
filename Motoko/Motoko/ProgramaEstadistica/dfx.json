@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "ProgramaEstadistica_backend": {
+      "main": "src/ProgramaEstadistica_backend/main.mo",
+      "type": "motoko"
+    },
+    "ProgramaEstadistica_frontend": {
+      "dependencies": [
+        "ProgramaEstadistica_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/ProgramaEstadistica_frontend/src/index.html"
+      },
+      "source": [
+        "src/ProgramaEstadistica_frontend/assets",
+        "dist/ProgramaEstadistica_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
