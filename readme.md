@@ -1,3 +1,7 @@
+# Enlace de nuestra aplicación desplegada en la BlockChain
+
+https://27kti-xqaaa-aaaak-ae6oa-cai.icp0.io/
+
 # Pasos para deployar la app
 
 1.- Clona el repositorio 
