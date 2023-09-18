@@ -9,7 +9,7 @@ git clone https://github.com/AdalbertoCV/ICP_APP.git
 2.- Entra a la carpeta del proyecto
 
 ```
-cd ICP_APP/Motoko/Motoko/hello_world
+cd ICP_APP/hello_world
 ```
 
 3.- Inicializa la replica de la blockchain
@@ -34,5 +34,3 @@ dfx deploy
 
 - Adalberto Cerrillo Vázquez
 - Elliot Axel Noriega
-
-
